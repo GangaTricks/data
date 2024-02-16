@@ -1,23 +1,302 @@
 [
   {
-    "word": "hello",
+    "word": "wherewithal",
     "examples": [
-      "Hello, how are you?",
-      "She greeted me with a warm hello."
+      "She didn't have the wherewithal to repay the loan."
     ]
   },
   {
-    "word": "world",
+    "word": "topplethe",
     "examples": [
-      "He traveled around the world.",
-      "The world is a beautiful place."
+      "It is the high time to take some serious and effective steps to topplethe orthodoxy of society."
     ]
   },
   {
-    "word": "example",
+    "word": "plague",
     "examples": [
-      "This is an example of how to use the word in a sentence.",
-      "Here's another example sentence."
+      "Fears about job security plague nearly half the workforce."
+    ]
+  },
+  {
+    "word": "harping",
+    "examples": [
+      "He keeps on harping the same procedure."
+    ]
+  },
+  {
+    "word": "overhaul",
+    "examples": [
+      "The machinery needs a complete overhaul."
+    ]
+  },
+  {
+    "word": "steer",
+    "examples": [
+      "The government chose to steer a middle course between the two strategies."
+    ]
+  },
+  {
+    "word": "bland",
+    "examples": [
+      "After the meeting, a bland statement was issued."
+    ]
+  },
+  {
+    "word": "well taken",
+    "examples": [
+      "There's no question about your advice being well taken."
+    ]
+  },
+  {
+    "word": "counterblast",
+    "examples": [
+      "The author has delivered a damning counterblast to her critics."
+    ]
+  },
+  {
+    "word": "purport",
+    "examples": [
+      "The novel does not purport to be a complete history of the period."
+    ]
+  },
+  {
+    "word": "sporadic",
+    "examples": [
+      "There were reports of sporadic fighting in the streets."
+    ]
+  },
+  {
+    "word": "perpetuate",
+    "examples": [
+      "These actions will perpetuate the hostility between the two groups."
+    ]
+  },
+  {
+    "word": "allusions",
+    "examples": [
+      "His poetry is full of obscure literary allusions."
+    ]
+  },
+  {
+    "word": "averse",
+    "examples": [
+      "He seems to be averse to hard work."
+    ]
+  },
+  {
+    "word": "incapacitated",
+    "examples": [
+      "He was incapacitated by old age and sickness."
+    ]
+  },
+  {
+    "word": "erratic",
+    "examples": [
+      "The singer gave an erratic performance."
+    ]
+  },
+  {
+    "word": "bout",
+    "examples": [
+      "A half-hour daily walk can be more beneficial than one hard bout of exercise a week."
+    ]
+  },
+  {
+    "word": "lurk",
+    "examples": [
+      "Hidden dangers lurk in the ocean depths."
+    ]
+  },
+  {
+    "word": "wearing thin",
+    "examples": [
+      "I've warned you several times about being late and my patience is wearing thin."
+    ]
+  },
+  {
+    "word": "incumbent",
+    "examples": [
+      "It's incumbent on parents to advise their children about the bad and good habits."
+    ]
+  },
+  {
+    "word": "overarching",
+    "examples": [
+      "The Supreme Court said that there has to be 'overarching' guidelines to guard personal information in public domain."
+    ]
+  },
+  {
+    "word": "bear out",
+    "examples": [
+      "Close examination fails to bear out the argument."
+    ]
+  },
+  {
+    "word": "moot",
+    "examples": [
+      "It's a moot point whether Rohan or Sohan is a better player."
+    ]
+  },
+  {
+    "word": "subvert",
+    "examples": [
+      "The man was sentenced to 10 years for plotting to subvert the government."
+    ]
+  },
+  {
+    "word": "stint on",
+    "examples": [
+      "They didn't stint on food and drink at their wedding."
+    ]
+  },
+  {
+    "word": "outrageously",
+    "examples": [
+      "The man behaved outrageously in the party."
+    ]
+  },
+  {
+    "word": "specious",
+    "examples": [
+      "They wouldn't accept his specious claim."
+    ]
+  },
+  {
+    "word": "hound down",
+    "examples": [
+      "The police have promised to hound down those responsible for the explosion."
+    ]
+  },
+  {
+    "word": "paper over",
+    "examples": [
+      "He tried to paper over the country's deep-seated problems."
+    ]
+  },
+  {
+    "word": "intent on",
+    "examples": [
+      "He was intent on pursuing a career in business."
+    ]
+  },
+  {
+    "word": "snoop on",
+    "examples": [
+      "People were sent out to snoop on rival businesses."
+    ]
+  },
+  {
+    "word": "shot in the arm",
+    "examples": [
+      "The new member was a shot in the arm for the team, which played noticeably better."
+    ]
+  },
+  {
+    "word": "shore up",
+    "examples": [
+      "They had to shore up the damaged wall."
+    ]
+  },
+  {
+    "word": "dire straits",
+    "examples": [
+      "After the war, the country's economy was in dire straits."
+    ]
+  },
+  {
+    "word": "strapped",
+    "examples": [
+      "The financially strapped state university finally closed."
+    ]
+  },
+  {
+    "word": "step in",
+    "examples": [
+      "The military may step in if the crisis continues."
+    ]
+  },
+  {
+    "word": "wooed",
+    "examples": [
+      "Shurpanaka wooed Lakshman to marry her."
+    ]
+  },
+  {
+    "word": "spearhead",
+    "examples": [
+      "The new managing director will act as spearhead of the campaign."
+    ]
+  },
+  {
+    "word": "shroud",
+    "examples": [
+      "Everything was covered in a thick shroud of dust."
+    ]
+  },
+  {
+    "word": "foreword",
+    "examples": [
+      "The paper has five chapters except foreword and postscript."
+    ]
+  },
+  {
+    "word": "off the mark",
+    "examples": [
+      "Their estimates were completely off the mark."
+    ]
+  },
+  {
+    "word": "rationalization",
+    "examples": [
+      "No amount of rationalization could justify his crime."
+    ]
+  },
+  {
+    "word": "forbearance",
+    "examples": [
+      "The teacher showed great forbearance in his classes."
+    ]
+  },
+  {
+    "word": "persist",
+    "examples": [
+      "If you want to achieve your goal, you must persist despite all obstacles."
+    ]
+  },
+  {
+    "word": "prejudiced",
+    "examples": [
+      "The seniors consider that such disclosures would be seriously prejudiced to the concerns of the group."
+    ]
+  },
+  {
+    "word": "taper off",
+    "examples": [
+      "We should taper off the amount of time given to work."
+    ]
+  },
+  {
+    "word": "a trail",
+    "examples": [
+      "The storm left a trail of destruction in its wake."
+    ]
+  },
+  {
+    "word": "armistice",
+    "examples": [
+      "Both the parties discussed their differences and finally agreed to call an armistice."
+    ]
+  },
+  {
+    "word": "pre-emptive",
+    "examples": [
+      "They decided to launch a pre-emptive strike."
+    ]
+  },
+  {
+    "word": "countenance",
+    "examples": [
+      "The school will not countenance bad behavior."
     ]
   },
   {
@@ -26,10 +305,250 @@
       "On the spur of the moment, we all decided to hold a dance party."
     ]
   },
-    {
-    "word": "spur",
+  {
+    "word": "imponderable",
     "examples": [
-      "On the spur dont of the moment, we all decided to hold a dance party."
+      "Our resources in technical knowledge are imponderable."
+    ]
+  },
+  {
+    "word": "laid bare",
+    "examples": [
+      "The investigation has laid bare their fraudulent scheme."
+    ]
+  },
+  {
+    "word": "contour",
+    "examples": [
+      "The map showed the contour of the coastline."
+    ]
+  },
+  {
+    "word": "anathema",
+    "examples": [
+      "Violence was anathema to them."
+    ]
+  },
+  {
+    "word": "sobering",
+    "examples": [
+      "It is sobering to realize that it is not a problem."
+    ]
+  },
+  {
+    "word": "moribund",
+    "examples": [
+      "The region's heavy industry is still inefficient and moribund."
+    ]
+  },
+  {
+    "word": "precarious",
+    "examples": [
+      "This place is a precarious and unstable area."
+    ]
+  },
+  {
+    "word": "cognisance",
+    "examples": [
+      "Such understanding is beyond his cognisance."
+    ]
+  },
+  {
+    "word": "outpace",
+    "examples": [
+      "We can outpace the fastest of your claimed airplanes."
+    ]
+  },
+  {
+    "word": "behove",
+    "examples": [
+      "In the interest of establishing a good relationship with my neighbors, it would behove me to go over to their houses and introduce myself."
+    ]
+  },
+  {
+    "word": "snag",
+    "examples": [
+      "There is a snag to the job, you have to work at weekends."
+    ]
+  },
+  {
+    "word": "crank upthe engine",
+    "examples": [
+      "Will you please help me to crank upthe engine?"
+    ]
+  },
+  {
+    "word": "pinned",
+    "examples": [
+      "They pinned the blame for the loss of jobs on the trade unions."
+    ]
+  },
+  {
+    "word": "rattle",
+    "examples": [
+      "The creaking upstairs was starting to rattle me."
+    ]
+  },
+  {
+    "word": "wobbly",
+    "examples": [
+      "He is still a bit wobbly after his illness."
+    ]
+  },
+  {
+    "word": "beleaguered",
+    "examples": [
+      "They beleaguered her with requests for forgiveness."
+    ]
+  },
+  {
+    "word": "entrenched",
+    "examples": [
+      "Casteism is entrenched in our society."
+    ]
+  },
+  {
+    "word": "inhibit",
+    "examples": [
+      "An unhappy family life may inhibit children's learning."
+    ]
+  },
+  {
+    "word": "extraneous",
+    "examples": [
+      "We shall ignore factors extraneous to the problem."
+    ]
+  },
+  {
+    "word": "usurious",
+    "examples": [
+      "The man lent money with usurious interest."
+    ]
+  },
+  {
+    "word": "woods",
+    "examples": [
+      "The nation's economy is not out of the woods yet."
+    ]
+  },
+  {
+    "word": "sterling",
+    "examples": [
+      "They all cherish her sterling qualities."
+    ]
+  },
+  {
+    "word": "fiddling around",
+    "examples": [
+      "He's fiddling around in the garage."
+    ]
+  },
+  {
+    "word": "enervate",
+    "examples": [
+      "Soft living will enervate the leaders, and those under their command will be changed into beasts."
+    ]
+  },
+  {
+    "word": "smitten",
+    "examples": [
+      "Fellow students remember her being smitten by the tall, good looking Courtney who was 11 years her senior."
+    ]
+  },
+  {
+    "word": "cheeks",
+    "examples": [
+      "She rocked back and forth, tears coursing down her cheeks unchecked."
+    ]
+  },
+  {
+    "word": "tapering off",
+    "examples": [
+      "My cousin's interest in English seems to be tapering off."
+    ]
+  },
+  {
+    "word": "booze",
+    "examples": [
+      "Let's just hope he doesn't go down the slippery slope of drugs and booze again."
+    ]
+  },
+  {
+    "word": "oblige",
+    "examples": [
+      "It's always a good idea to oblige important clients."
+    ]
+  },
+  {
+    "word": "backstop",
+    "examples": [
+      "The government agreed to backstop companies that invested in oil exploration."
+    ]
+  },
+  {
+    "word": "sop",
+    "examples": [
+      "The child was given a prize as a sop to her disappointed parents."
+    ]
+  },
+  {
+    "word": "rung",
+    "examples": [
+      "He is still on the bottom rung of the political ladder."
+    ]
+  },
+  {
+    "word": "doles out",
+    "examples": [
+      "The government doles out cheese to the needy."
+    ]
+  },
+  {
+    "word": "attrition",
+    "examples": [
+      "These were the economics not of efficiency but of attrition."
+    ]
+  },
+  {
+    "word": "insulate",
+    "examples": [
+      "Living in the countryside tends to insulate us from the outside world."
+    ]
+  },
+  {
+    "word": "herald",
+    "examples": [
+      "The result could herald the revival of the dormant kit car industry."
+    ]
+  },
+  {
+    "word": "scupper",
+    "examples": [
+      "Subconsciously, they scupper their own efforts to gain a little comfort."
+    ]
+  },
+  {
+    "word": "defused",
+    "examples": [
+      "A spokesman said this firm action had defused a very nasty situation."
+    ]
+  },
+  {
+    "word": "browbeat",
+    "examples": [
+      "We shall never allow our police to browbeat prisoners into admitting their guilt."
+    ]
+  },
+  {
+    "word": "adjunct",
+    "examples": [
+      "Physical therapy is an important adjunct to drug treatments."
+    ]
+  },
+  {
+    "word": "mendicant",
+    "examples": [
+      "This dear little mendicant pretends to be utterly helpless."
     ]
   }
 ]
