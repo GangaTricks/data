@@ -1,0 +1,23 @@
+[
+  {
+    "word": "hello",
+    "examples": [
+      "Hello, how are you?",
+      "She greeted me with a warm hello."
+    ]
+  },
+  {
+    "word": "world",
+    "examples": [
+      "He traveled around the world.",
+      "The world is a beautiful place."
+    ]
+  },
+  {
+    "word": "example",
+    "examples": [
+      "This is an example of how to use the word in a sentence.",
+      "Here's another example sentence."
+    ]
+  }
+]
