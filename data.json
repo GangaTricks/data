@@ -19,5 +19,18 @@
       "This is an example of how to use the word in a sentence.",
       "Here's another example sentence."
     ]
+  },
+    {
+    "word": "example",
+    "examples": [
+      "This is an example of how to use the word in a sentence.",
+      "Here's another example sentence."
+    ]
+  },
+    {
+    "word": "spur",
+    "examples": [
+      "On the spur of the moment, we all decided to hold a dance party."
+    ]
   }
 ]
