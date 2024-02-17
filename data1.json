@@ -1,113 +1,73 @@
-{
-  "people": [
-    {
-      "name": "Mahatma Gandhi",
-      "birth_year": 1869,
-      "death_year": 1948,
-      "facts": [
-        {"id": 1, "text": "Gandhi came to India in 1915."},
-        {"id": 2, "text": "He followed the doctrine of Ahimsa."},
-        {"id": 3, "text": "The Champaran Satyagraha in 1917 was his first success in India."},
-        {"id": 4, "text": "The Ahmedabad Satyagraha led to a 35 per cent increase in wages."},
-        {"id": 5, "text": "Kheda Satyagraha was a protest against land revenue."},
-        {"id": 6, "text": "Gandhi was given the title Mahatma by Rabindranath Tagore in 1917."},
-        {"id": 7, "text": "He was also called Malang Baba/Nanga Fakir."},
-        {"id": 8, "text": "Gandhi's birth name was Mohan Das Karam Chand Gandhi."},
-        {"id": 9, "text": "He was influenced by John Ruskin, Leo Tolstoy, Thoreau, Emerson, the Bible, and the Gita."},
-        {"id": 10, "text": "Gandhi's literary works include 'Hind Swaraj' and 'My Experiments with Truth'."},
-        {"id": 11, "text": "He was known as Rashtrapita by Subhash Chandra Bose."},
-        {"id": 12, "text": "Gandhi was assassinated on January 30, 1948."},
-        {"id": 13, "text": "Gandhi was born on October 2, 1869, in Porbandar, Gujarat."},
-        {"id": 14, "text": "His father's name was Karam Chand Gandhi."},
-        {"id": 15, "text": "His mother's name was Putali Bai."},
-        {"id": 16, "text": "Gopal Krishna Gokhale was his political guru."},
-        {"id": 17, "text": "Mahadev Desai served as his private secretary."},
-        {"id": 18, "text": "Gandhi edited several newspapers including Indian Opinion and Harijan."},
-        {"id": 19, "text": "Gandhi's titles include 'Half Naked Saint' and 'Indian/Traitor Faqir'."},
-        {"id": 20, "text": "Franq Mores called him 'Half Naked Saint'."},
-        {"id": 21, "text": "Winston Churchill referred to him as 'Indian/Traitor Faqir'."},
-        {"id": 22, "text": "He was awarded the title Rashtrapita by Subhash Chandra Bose in 1944."}
-      ]
-    },
-    {
-      "name": "Sarojini Naidu",
-      "birth_year": 1879,
-      "death_year": 1949,
-      "facts": [
-        {"id": 23, "text": "Sarojini Naidu was known as the Nightingale of India."},
-        {"id": 24, "text": "She was married to Dr. Govindarajulu Naidu."},
-        {"id": 25, "text": "Under the guidance of Gopal Krishna Gokhale, she became the first woman to participate in India’s struggle for independence."},
-        {"id": 26, "text": "She presided over the Kanpur Session of Congress in 1925."},
-        {"id": 27, "text": "She was the first woman to become the Governor of Uttar Pradesh."},
-        {"id": 28, "text": "Her famous books include 'The Golden Threshold', 'The Feather of the Dawn', and 'The Broken Wing'."}
-      ]
-    },
-    {
-      "name": "Chakravarthi Rajagopalachari",
-      "birth_year": 1879,
-      "death_year": 1972,
-      "facts": [
-        {"id": 29, "text": "Rajagopalachari was a politician and lawyer from Tamil Nadu."},
-        {"id": 30, "text": "He started the Civil Disobedience Movement in Tamil Nadu."},
-        {"id": 31, "text": "He served as the Chief Minister of Madras in 1937."},
-        {"id": 32, "text": "He founded the Swatantra Party in 1959."},
-        {"id": 33, "text": "He was awarded the Bharat Ratna in 1954."}
-      ]
-    },
-    {
-      "name": "Dr. Rajendra Prasad",
-      "birth_year": 1884,
-      "death_year": 1963,
-      "facts": [
-        {"id": 34, "text": "He founded the National College at Patna."},
-        {"id": 35, "text": "He was elected as the President of the Constituent Assembly."},
-        {"id": 36, "text": "He became the first President of the Indian Republic."},
-        {"id": 37, "text": "He was honoured with Bharat Ratna in 1962."},
-        {"id": 38, "text": "He edited the newspaper 'Desh'."}
-      ]
-    },
-    {
-      "name": "Jawaharlal Nehru",
-      "birth_year": 1889,
-      "death_year": 1964,
-      "facts": [
-        {"id": 39, "text": "Nehru became the General Secretary of the Indian National Congress in 1928."},
-        {"id": 40, "text": "He was the first Prime Minister of Republic India."},
-        {"id": 41, "text": "He authored the Doctrine of Panchseel."},
-        {"id": 42, "text": "His autobiography was entitled 'Autobiography'."}
-      ]
-    },
-    {
-      "name": "Dr. Bhimrao Ambedkar",
-      "birth_year": 1891,
-      "death_year": 1956,
-      "facts": [
-        {"id": 43, "text": "He participated in all the Three Round Table Conferences of London."},
-        {"id": 44, "text": "He was in the Governor-General’s Executive Council from 1942 to 1946."},
-        {"id": 45, "text": "He started The Republican Party in 1956."},
-        {"id": 46, "text": "He embraced Buddhism towards the end of his life."}
-      ]
-    },
-    {
-      "name": "Subhash Chandra Bose",
-      "birth_year": 1897,
-      "death_year": 1945,
-      "facts": [
-        {"id": 47, "text": "He founded the independence for India League with Jawaharlal Nehru."},
-        {"id": 48, "text": "He was elected as the President of INC at its Haripura Session (1938) and Tripuri Session (1939)."},
-        {"id": 49, "text": "He supposedly died in a plane crash in 1945."},
-        {"id": 50, "text": "He gave the famous slogans 'Dilli Chalo' and 'Jai Hind'."}
-      ]
-    },
-    {
-      "name": "Bhagat Singh",
-      "birth_year": 1907,
-      "death_year": 1931,
-      "facts": [
-        {"id": 51, "text": "He was a member of Hindustan Socialist Republican Association."},
-        {"id": 52, "text": "He was involved in the Lahore Conspiracy."},
-        {"id": 53, "text": "He was executed on 23rd March, 1931."}
-      ]
-    }
-  ]
-}
+[
+  {
+    "word": "Hyderabad",
+    "examples": [
+      "Founded by Nizam-ul-Mulk Asaf Jahan in AD 1724.",
+      "His original name was Chin Qilich Khan but emperor Farrukhsiyar conferred on him the titles of ‘Khan-i-Duran’ and later ‘Nizam-ul-Mulk’.",
+      "Puran Chand was his diwan.",
+      "Carnatic was one of the Subah of Deccan hence, it was under Nizam of Hyderabad.",
+      "Nizam of Hyderabad became independent of Delhi and deputy Governor of Carnatic made himself independent of Hyderabad, hence assumed the title ‘Nawab of Carnatic’.",
+      "Saadautullah Khan of Carnatic made his nephew Dost Ali as his successor at Carnatic without the approval of Nizam. This caused rivalry between Carnatic and Hyderabad.",
+      "Hyderabad remained independent until it became a part of Independent India.",
+      "The Nizam provided assistance to the British during the 1857 Revolt."
+    ]
+  },
+  {
+    "word": "Awadh",
+    "examples": [
+      "Founded by Saadat Khan Burhan-ul-Mulk. Emperor Muhammad Shah appointed him as Governor of Awadh in AD 1722.",
+      "Committed suicide in 1739 and was succeeded by his nephew Safdar Jung.",
+      "The highest post of his government was held by Maharaja Nawab Rai. This shows his religious tolerance towards the Hindus."
+    ]
+  },
+  {
+    "word": "Mysore",
+    "examples": [
+      "Haider Ali (1761-82) started his career as a soldier in Mysore state, promoted to Commander-in-Chief and later to Faujadar at Dindigul.",
+      "In 1761, he overthrew Nanjaraja and established his authority over Mysore. He established a Modern Arsenal in Dindigul.",
+      "In 1769, he repeatedly defeated the British in First Anglo-Mysore War and reached the walls of Madras. He died in 1782 during Second Anglo-Mysore War.",
+      "Tipu Sultan (1782-99) succeeded Haider Ali. He planted the Tree of Liberty at Srirangapatnam and became a member of the Jacobian Club.",
+      "He died in 1799, fighting at the gates of Srirangapatnam during the 4th AngloMysore War.",
+      "He was tolerant and enlightened in his approach towards other religions. He gave money for the construction of image of Goddess Sarda on the Shrinageri temple. The famous temple of Sri Rangnath was situated barely a hundred yards from his palace. He assumed the title of Padshah in 1797."
+    ]
+  },
+  {
+    "word": "Bengal",
+    "examples": [
+      "Murshid Quli Khan (1717-27) He was made Governor of Bengal (1717) and Orissa (1719). He transferred capital of Bengal from Dacca to Murshidabad. He died in 1727.",
+      "Shuja-ud-din (1727-39) He was granted Governorship of Bihar by Mughal emperor Muhammad Shah Rangeela.",
+      "Sarfaraz Khan (1739-40) Alivardi Khan deposed and killed Shuja-ud- din’s son, Sarfaraz Khan and made himself Nawab.",
+      "Alivardi Khan (1746) Bribed Muhammad Shah Rangeela and legalised his position by receiving a farman from him. He prevented the English and French fortifications at Calcutta and Chandranagar respectively.",
+      "Under the farman of 1717, the Company had rights to import or export their goods in Bengal without paying tax and right to issue passes or dastaks.",
+      "In 1756, Siraj-ud-Daula seized the English factory at Kasimbazar and marched to Calcutta and occupied Fort William. Black hole tragedy took place. Robert Clive recovered Calcutta and Treaty of Alinagar was signed on 2nd January, 1757.",
+      "Battle of Plassey On 23rd June, 1757, English won the battle against Siraj-ud-daula, and compelled the Nawab to concede all the demands.",
+      "Mir Jafar, (Mir Bakhsh), Manik Chand (Officer incharge of Calcutta), Aminchand (rich Sikh merchant), Jagat Seth (banker), Khadim Khan (Commander of Nawab’s army) all were on the English side.",
+      "Mir Madan and Mohan Lal, Nawab’s soldiers, fought bravely.",
+      "Nawab was killed by Mir Jafar’s son Miran."
+    ]
+  },
+  {
+    "word": "Mir Jafar",
+    "examples": [
+      "Mir Jafar was the first Nawab of Bengal, Bihar and Orissa under the British rule in India.",
+      "He granted free trade right to the Company in Bengal, Bihar and Orissa."
+    ]
+  },
+  {
+    "word": "Mir Qasim",
+    "examples": [
+      "Mir Qasim ceded Burdwan, Midnapur and Chittagong. He shifted his capital from Murshidabad to Monghyr.",
+      "Mir Qasim soon revolted as he was angry with the British for misusing dastaks (free duty passes).",
+      "Battle of Buxar He formed an alliance with Nawab of Awadh, Shuja-ud-daula and Mughal Emperor Shah Alam-II and fought with the British army at Buxar on 22nd October, 1764. Mir Jafar was again put on the throne by the Britishers."
+    ]
+  },
+  {
+    "word": "Treaty of Allahabad",
+    "examples": [
+      "English got the Diwani rights (right to collect revenue) of Bengal, Bihar and Orissa) and gave 26 lakhs.",
+      "The Dual Government of Bengal was established in 1765, wherein the company got the right to collect revenue but the Nizamat right (duty of administration) was with the Nawab.",
+      "After the Battle of Buxar, the Company gave Shah Alam-II a subsidary of ` 26 lakh and secured Diwani of Arrah and Allahabad.",
+      "The important outcome is the Treaty of Allahabad."
+    ]
+  }
+]
