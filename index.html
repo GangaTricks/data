@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search Sentences</title>
+<title>Analytics</title>
 </head>
 <body style="display: flex;">
 <div style="display: flex; justify-content: space-around;">
 <div>
-<h1>Search Sentences</h1>
+<h1>GangaTricks Analytics</h1>
 
-<label for="searchInput">Enter a word:</label>
+<label for="searchInput">Try out input</label>
 
 <input type="text" id="searchInput">
 
-<button id="searchButton">Search</button>
+<button id="searchButton">Fetch</button>
 
 
 <div id="searchResults"></div>
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function displayAllSentences(data) {
     const allSentencesContainer = document.getElementById('allSentences');
     const allSentences = data.reduce((sentences, item) => sentences.concat(item.examples), []);
-    allSentencesContainer.innerHTML = '<h2>All Sentences:</h2>';
+    allSentencesContainer.innerHTML = '<h2>GangaTricks Corpse</h2>';
     allSentences.forEach(sentence => {
       const div = document.createElement('div');
       const checkbox = document.createElement('input');
