@@ -1,9 +1,113 @@
 {
-  "sentences": [
-    {"id": 1, "text": "This is the first sentence."},
-    {"id": 2, "text": "The second sentence contains the word 'apple'."},
-    {"id": 3, "text": "Here is another sentence."},
-    {"id": 4, "text": "This sentence has the word 'banana'."},
-    {"id": 5, "text": "Yet another sentence without any specific word."}
+  "people": [
+    {
+      "name": "Mahatma Gandhi",
+      "birth_year": 1869,
+      "death_year": 1948,
+      "facts": [
+        {"id": 1, "text": "Gandhi came to India in 1915."},
+        {"id": 2, "text": "He followed the doctrine of Ahimsa."},
+        {"id": 3, "text": "The Champaran Satyagraha in 1917 was his first success in India."},
+        {"id": 4, "text": "The Ahmedabad Satyagraha led to a 35 per cent increase in wages."},
+        {"id": 5, "text": "Kheda Satyagraha was a protest against land revenue."},
+        {"id": 6, "text": "Gandhi was given the title Mahatma by Rabindranath Tagore in 1917."},
+        {"id": 7, "text": "He was also called Malang Baba/Nanga Fakir."},
+        {"id": 8, "text": "Gandhi's birth name was Mohan Das Karam Chand Gandhi."},
+        {"id": 9, "text": "He was influenced by John Ruskin, Leo Tolstoy, Thoreau, Emerson, the Bible, and the Gita."},
+        {"id": 10, "text": "Gandhi's literary works include 'Hind Swaraj' and 'My Experiments with Truth'."},
+        {"id": 11, "text": "He was known as Rashtrapita by Subhash Chandra Bose."},
+        {"id": 12, "text": "Gandhi was assassinated on January 30, 1948."},
+        {"id": 13, "text": "Gandhi was born on October 2, 1869, in Porbandar, Gujarat."},
+        {"id": 14, "text": "His father's name was Karam Chand Gandhi."},
+        {"id": 15, "text": "His mother's name was Putali Bai."},
+        {"id": 16, "text": "Gopal Krishna Gokhale was his political guru."},
+        {"id": 17, "text": "Mahadev Desai served as his private secretary."},
+        {"id": 18, "text": "Gandhi edited several newspapers including Indian Opinion and Harijan."},
+        {"id": 19, "text": "Gandhi's titles include 'Half Naked Saint' and 'Indian/Traitor Faqir'."},
+        {"id": 20, "text": "Franq Mores called him 'Half Naked Saint'."},
+        {"id": 21, "text": "Winston Churchill referred to him as 'Indian/Traitor Faqir'."},
+        {"id": 22, "text": "He was awarded the title Rashtrapita by Subhash Chandra Bose in 1944."}
+      ]
+    },
+    {
+      "name": "Sarojini Naidu",
+      "birth_year": 1879,
+      "death_year": 1949,
+      "facts": [
+        {"id": 23, "text": "Sarojini Naidu was known as the Nightingale of India."},
+        {"id": 24, "text": "She was married to Dr. Govindarajulu Naidu."},
+        {"id": 25, "text": "Under the guidance of Gopal Krishna Gokhale, she became the first woman to participate in India’s struggle for independence."},
+        {"id": 26, "text": "She presided over the Kanpur Session of Congress in 1925."},
+        {"id": 27, "text": "She was the first woman to become the Governor of Uttar Pradesh."},
+        {"id": 28, "text": "Her famous books include 'The Golden Threshold', 'The Feather of the Dawn', and 'The Broken Wing'."}
+      ]
+    },
+    {
+      "name": "Chakravarthi Rajagopalachari",
+      "birth_year": 1879,
+      "death_year": 1972,
+      "facts": [
+        {"id": 29, "text": "Rajagopalachari was a politician and lawyer from Tamil Nadu."},
+        {"id": 30, "text": "He started the Civil Disobedience Movement in Tamil Nadu."},
+        {"id": 31, "text": "He served as the Chief Minister of Madras in 1937."},
+        {"id": 32, "text": "He founded the Swatantra Party in 1959."},
+        {"id": 33, "text": "He was awarded the Bharat Ratna in 1954."}
+      ]
+    },
+    {
+      "name": "Dr. Rajendra Prasad",
+      "birth_year": 1884,
+      "death_year": 1963,
+      "facts": [
+        {"id": 34, "text": "He founded the National College at Patna."},
+        {"id": 35, "text": "He was elected as the President of the Constituent Assembly."},
+        {"id": 36, "text": "He became the first President of the Indian Republic."},
+        {"id": 37, "text": "He was honoured with Bharat Ratna in 1962."},
+        {"id": 38, "text": "He edited the newspaper 'Desh'."}
+      ]
+    },
+    {
+      "name": "Jawaharlal Nehru",
+      "birth_year": 1889,
+      "death_year": 1964,
+      "facts": [
+        {"id": 39, "text": "Nehru became the General Secretary of the Indian National Congress in 1928."},
+        {"id": 40, "text": "He was the first Prime Minister of Republic India."},
+        {"id": 41, "text": "He authored the Doctrine of Panchseel."},
+        {"id": 42, "text": "His autobiography was entitled 'Autobiography'."}
+      ]
+    },
+    {
+      "name": "Dr. Bhimrao Ambedkar",
+      "birth_year": 1891,
+      "death_year": 1956,
+      "facts": [
+        {"id": 43, "text": "He participated in all the Three Round Table Conferences of London."},
+        {"id": 44, "text": "He was in the Governor-General’s Executive Council from 1942 to 1946."},
+        {"id": 45, "text": "He started The Republican Party in 1956."},
+        {"id": 46, "text": "He embraced Buddhism towards the end of his life."}
+      ]
+    },
+    {
+      "name": "Subhash Chandra Bose",
+      "birth_year": 1897,
+      "death_year": 1945,
+      "facts": [
+        {"id": 47, "text": "He founded the independence for India League with Jawaharlal Nehru."},
+        {"id": 48, "text": "He was elected as the President of INC at its Haripura Session (1938) and Tripuri Session (1939)."},
+        {"id": 49, "text": "He supposedly died in a plane crash in 1945."},
+        {"id": 50, "text": "He gave the famous slogans 'Dilli Chalo' and 'Jai Hind'."}
+      ]
+    },
+    {
+      "name": "Bhagat Singh",
+      "birth_year": 1907,
+      "death_year": 1931,
+      "facts": [
+        {"id": 51, "text": "He was a member of Hindustan Socialist Republican Association."},
+        {"id": 52, "text": "He was involved in the Lahore Conspiracy."},
+        {"id": 53, "text": "He was executed on 23rd March, 1931."}
+      ]
+    }
   ]
 }
