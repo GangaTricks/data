@@ -1,0 +1,9 @@
+{
+  "sentences": [
+    {"id": 1, "text": "This is the first sentence."},
+    {"id": 2, "text": "The second sentence contains the word 'apple'."},
+    {"id": 3, "text": "Here is another sentence."},
+    {"id": 4, "text": "This sentence has the word 'banana'."},
+    {"id": 5, "text": "Yet another sentence without any specific word."}
+  ]
+}
