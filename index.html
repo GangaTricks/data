@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Sentences</title>
+<style>
+body {
+  font-size: 12px;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border: .4em solid rgba(0, 0, 0, 0.1);
+  border-right-color: #007bff;
+  border-radius: 50%;
+  animation: spinner-border .75s linear infinite;
+}
+
+@keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+</style>
+</head>
+<body>
+
+<h1>GangaTricks Analytics</h1>
+
+
+
+<div id="loadingIndicator" style="display: none;">
+  <!-- Add your loading indicator here -->
+  <!-- For example, you can use a spinner or animation -->
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+
+
+
+<label for="searchInput">Enter a word:</label>
+<input type="text" id="searchInput">
+
+<input type="checkbox" id="url1" value="https://gangatricks.github.io/data/data1.json">
+<label for="url1">Link 1</label>
+<input type="checkbox" id="url2" value="https://gangatricks.github.io/data/data2.json">
+<label for="url2">Link 2</label>
+
+<input type="checkbox" id="url3" value="https://gangatricks.github.io/data/data3.json">
+<label for="url3">Link 3</label>
+
+  <input type="checkbox" id="url4" value="https://gangatricks.github.io/data/data4.json">
+<label for="url4">Link 4</label>
+<!-- Add more checkboxes for additional URLs if needed -->
+
+<button id="searchButton">Search</button>
+<div id="wordSentences" style="padding-bottom: 200px;"></div>
+<div id="searchResults"></div>
+
+
+
+<script>
+  
+document.addEventListener("DOMContentLoaded", function() {
+  // Function to show loading indicator
+  function showLoading() {
+    document.getElementById('loadingIndicator').style.display = 'block';
+  }
+
+  // Function to hide loading indicator
+  function hideLoading() {
+    document.getElementById('loadingIndicator').style.display = 'none';
+  }
+
+  // Function to fetch data from the API
+  async function fetchData(url) {
+    try {
+      showLoading(); // Show loading indicator
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.text();
+      hideLoading(); // Hide loading indicator
+      return data;
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      hideLoading(); // Hide loading indicator in case of error
+      return null;
+    }
+  }
+
+  // Function to search sentences containing a specific word
+  function searchSentences(data, word) {
+    const sentences = data.split(/(?<=\.)\s+(?=[A-Z])|\s(?=[A-Z]\d+)/).map(sentence => sentence.trim());
+    const foundSentences = sentences.filter(sentence => sentence.toLowerCase().includes(word.toLowerCase()));
+    return foundSentences;
+  }
+
+// Function to display search results
+function displaySearchResults(results, containerId, wordToSearch) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = ''; // Clear previous results
+    if (results.length === 0) {
+      container.textContent = 'No sentences found.';
+    } else {
+      container.innerHTML = '<h2>Search Results:</h2>';
+      results.forEach(result => {
+        const p = document.createElement('p');
+        let displaySentence;
+        if (containerId === 'wordSentences') {
+          displaySentence = result; // Original sentence without truncation
+        } else {
+          displaySentence = truncateSentence(result, wordToSearch); // Truncated sentence
+        }
+        const highlightedSentence = displaySentence.replace(new RegExp(wordToSearch, 'gi'), '<span class="highlight">$&</span>'); // Highlight the searched word
+        p.innerHTML = highlightedSentence;
+        container.appendChild(p);
+      });
+    }
+}
+
+
+  
+  // Function to truncate sentence to 75 words, keeping the search word at the center
+function truncateSentence(sentence, searchWord) {
+  const sentences = sentence.split(/(?<=\.)\s+(?=[A-Z])|\s(?=[A-Z]\d+)/);
+  let truncatedSentences = [];
+  sentences.forEach(sentence => {
+    const words = sentence.split(' ');
+    const searchIndex = words.findIndex(word => word.toLowerCase() === searchWord.toLowerCase());
+    const beforeWords = 20;
+    const afterWords = 55;
+
+    let startIndex, endIndex;
+
+    if (words.length <= beforeWords + afterWords) {
+      startIndex = 0;
+      endIndex = words.length - 1;
+    } else {
+      startIndex = Math.max(0, searchIndex - beforeWords);
+      endIndex = Math.min(words.length - 1, searchIndex + afterWords);
+    }
+
+    const truncatedWords = words.slice(startIndex, endIndex + 1);
+    const truncatedSentence = truncatedWords.join(' ');
+    truncatedSentences.push(truncatedSentence);
+  });
+  return truncatedSentences.join('');
+}
+
+
+
+  // Event listener for the search button
+  document.getElementById('searchButton').addEventListener('click', async function() {
+    const wordToSearch = document.getElementById('searchInput').value.trim();
+    if (wordToSearch === '') {
+      alert('Please enter a word to search.');
+      return;
+    }
+
+    // Array to store selected URLs
+    const selectedUrls = [];
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+      if (checkbox.checked) {
+        selectedUrls.push(checkbox.value);
+      }
+    });
+
+    if (selectedUrls.length === 0) {
+      alert('Please select at least one URL to fetch data from.');
+      return;
+    }
+
+    // Fetch data from selected URLs
+    const fetchPromises = selectedUrls.map(url => fetchData(url));
+    const dataResults = await Promise.all(fetchPromises);
+
+    // Concatenate data from all URLs
+    const concatenatedData = dataResults.join('');
+
+    // Search for sentences containing the searched word
+    const searchResults = searchSentences(concatenatedData, wordToSearch);
+
+    // Display search results in both divs and highlight the search word
+    displaySearchResults(searchResults, 'searchResults', wordToSearch);
+
+    // Filter search results for sentences containing the searched word only
+    displaySearchResults(searchResults, 'wordSentences', wordToSearch);
+  });
+
+});
+</script>
+
+</body>
+</html>
