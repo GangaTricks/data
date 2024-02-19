@@ -67,6 +67,7 @@ body {
 
 
 <script>
+  
 document.addEventListener("DOMContentLoaded", function() {
   // Function to show loading indicator
   function showLoading() {
@@ -103,8 +104,8 @@ document.addEventListener("DOMContentLoaded", function() {
     return foundSentences;
   }
 
-  // Function to display search results
-  function displaySearchResults(results, containerId, wordToSearch) {
+    // Function to display search results
+function displaySearchResults(results, containerId, wordToSearch) {
     const container = document.getElementById(containerId);
     container.innerHTML = ''; // Clear previous results
     if (results.length === 0) {
@@ -113,17 +114,19 @@ document.addEventListener("DOMContentLoaded", function() {
       container.innerHTML = '<h2>Search Results:</h2>';
       results.forEach(result => {
         const p = document.createElement('p');
+        let displaySentence;
         if (containerId === 'wordSentences') {
-          const highlightedSentence = result.replace(new RegExp(wordToSearch, 'gi'), '<span class="highlight">$&</span>');
-          p.innerHTML = truncateSentence(highlightedSentence, wordToSearch);
+          displaySentence = result; // Original sentence without truncation
         } else {
-          p.innerHTML = result.replace(new RegExp(wordToSearch, 'gi'), '<span class="highlight">$&</span>');
+          displaySentence = truncateSentence(result, wordToSearch); // Truncated sentence
         }
+        const highlightedSentence = displaySentence.replace(new RegExp(wordToSearch, 'gi'), '<span class="highlight">$&</span>'); // Highlight the searched word
+        p.innerHTML = highlightedSentence;
         container.appendChild(p);
       });
     }
-  }
-
+}  
+  
   // Function to truncate sentence to 75 words, keeping the search word at the center
   function truncateSentence(sentence, searchWord) {
     const sentences = sentence.split(/(?<=\.)\s+(?=[A-Z])|\s(?=[A-Z]\d+)/);
@@ -157,6 +160,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     return truncatedSentences.join('');
   }
+
+
 
   // Event listener for the search button
   document.getElementById('searchButton').addEventListener('click', async function() {
@@ -198,7 +203,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 });
-
 </script>
 
 </body>
